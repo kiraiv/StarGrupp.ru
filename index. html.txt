@@ -1,0 +1,209 @@
+<!DOCTYPEhtml>
+<htmllang='ru-RU'>
+	<head>
+		<title>СтарГрупп</title>
+		<meta name='description' content='$description'>
+		<link rel='shortcut icon' href='favikon.ico' type='image/x-icon'>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+		<link rel='stylesheet' type='text/css' href='css/style.css'>
+		<script type='text/javascript' src='js/jquery-3.6.0.min.js'></script>
+		<script type='text/javascript' src='js/script.js'></script>
+	</head>
+	<body>
+		<div id='wrap_shapka'>
+			<imgsrc='images/shapka.jpg'>
+			<div id='content_shapka'>
+				<div id='wrap_shapka_name'>
+					<div>
+						Стар Групп
+					</div>
+					<div>
+						Ваш надёжный партнер
+					</div>
+				</div>
+				<div id='wrap_menu'>
+					<ul>
+						<li>ГЛАВНАЯ</li>
+						<li onclick='scroll_to_el("#wrap_advantages",400)'>ПРЕИМУЩЕСТВА</li>
+						<li onclick='scroll_to_el("#wrap_uslugi",400)'>УСЛУГИ</li>
+						<li onclick='scroll_to_el("#wrap_clients",400)'>КЛИЕНТЫ</li>
+						<li onclick='scroll_to_el("#wrap_partners",400)'>ПАРТНЕРЫ</li>
+						<li onclick='scroll_to_el("#wrap_contacts",400)'>КОНТАКТЫ</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--ПРЕИМУЩЕСТВА-->
+		<div class='wrap_block' id='wrap_advantages'>
+			<h2 class='title_block'>
+				Преимущества
+			</h2>
+			<div class='content_block'>
+				<p>
+					<imgsrc='images/ikonka1.png'>
+					<span>
+						Профессионализм и опыт
+					</span>
+				Работаем в сфере таможенных услуг более 20 лет
+				</p>
+				<p>
+					<imgsrc='images/ikonka2.png'>
+					<span>
+					Международный уровень
+					</span>
+			Успешно сотрудничаем со множеством мировых компаний
+				</p>
+				<p>
+					<imgsrc='images/ikonka3.png'>
+					<span>
+					Обширная география
+					</span>
+			Сопровождение грузов по всей России и не только
+				</p>
+				<p>
+					<imgsrc='images/ikonka4.png'>
+					<span>
+					Широкий спектр предоставляемых услуг
+					</span>
+	От консультрования по запросу до доставки места назначения грузов
+				</p>
+			</div>
+		</div>
+		<!--ПРЕИМУЩЕСТВА-->
+		<!--УСЛУГИ-->
+		<divclass='wrap_block' id='wrap_uslugi'>
+			<div></div>
+			<h2 class='title_block'>
+				Нашиуслуги
+			</h2>
+			<div class='content_block'>
+				<div>
+					<div>
+						ТАМОЖЕННОЕ ОФОРМЛЕНИЕ
+					</div>
+					<div>
+						<ul>
+						<li>Консультирование по вопросам осуществления ВЭД и таможенного оформления, возмещения экспортного НДС, структуры внешнеторговых сделок с учетом особенностей таможенного оформления;</li>
+						<li>Подготовка и согласование полного пакета документов для таможенного оформления;</li>
+						<li>Классификация товара в соответствии с ТН ВЭД;</li>
+					</ul>
+					</div>
+				</div>
+			
+				<div>
+					<div>
+				СПЕЦИАЛИЗИРОВАННЫЕ УСЛУГИ ТАМОЖЕННОГО ОФОРМЛЕНИЯ
+					</div>
+					<div>
+						<ul>
+						<li>Оформление Карнета АТА;</li>
+						<li>Оформление и подача статистической формы для экспортно-импортных операций на территории ЕАЭС;</li>
+						<li>Участие в мероприятиях таможенного контроля, в том числе организация таможенного досмотра груза;</li>
+						<li>Организация работы с подакцизными товарами: автотехника (с выдачей ПТС, ПСМ, ПМТС); алкоголь, табак и др.;</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<div>
+						ОРГАНИЗАЦИЯ ПЕРЕВОЗКИ
+					</div>
+					<div>
+						<ul>
+						<li>Подготовка и оформление товарно-сопроводительной документации;</li>
+						<li>Разработка схем доставки грузов "от двери до двери";</li>
+						<li>Автомобильные и авиа международные перевозки;</li>
+						<li>Морские контейнерные перевозки и судовыми партиями;</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<div>
+					ПОЛУЧЕНИЕ РАЗРЕШИТЕЛЬНЫХ ДОКУМЕНТОВ
+					</div>
+					<div>
+						<ul>
+						<li>Сертификатов соответствия ГОСТ Р;</li>
+						<li>Сертификатов происхождения (CT-1);</li>
+						<li>Свидетельств о государственной регистрации товаров, подлежащих обязательной регистрации;</li>
+						<li>Деклараций соответствия ТР ТС;</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--УСЛУГИ-->
+		
+		<!--КЛИЕНТЫИПАРТНЕРЫ-->
+		<div class='wrap_block' id='wrap_clients'>
+			<h2 class='title_block'>
+				Нашиклиенты
+			</h2>
+			<div class='content_block'>
+				<p>
+					Металлургия,
+					производство ГСМ,
+					автомобилестроение и сборочные производства,
+					сетевой ритейл и медицина,
+					пищевая и химическая промышленность
+				</p>
+				<div>
+					<imgsrc='images/logo8.jpg'>
+					<imgsrc='images/logo2.jpg'>
+					<imgsrc='images/logo3.jpg'>
+					<imgsrc='images/logo4.jpg'>
+				</div>
+			</div>
+		</div>
+		<div class='wrap_block' id='wrap_partners'>
+			<h2 class='title_block'>
+				Нашипартнеры
+			</h2>
+			<div class='content_block'>
+				<div>
+					<imgsrc='images/logo5.jpg'>
+					<imgsrc='images/logo1.jpg'>
+					<imgsrc='images/logo7.jpg'>
+					<imgsrc='images/logo6.jpg'>
+				</div>
+			</div>
+		</div>
+		<!--КЛИЕНТЫ И ПАРТНЕРЫ-->
+		<!--СХЕМА ПРОЕЗДА-->
+		<div class='wrap_block' id='wrap_karta'>
+			<h2 class='title_block'>
+				Схема<br>проезда
+			</h2>
+			<div class='content_block'>
+				<div>
+					<imgsrc='images/karta.jpg'>
+				</div>
+			</div>
+		</div>
+		<!--СХЕМАПРОЕЗДА-->
+		<!--КОНТАКТЫ-->
+		<div class='wrap_block' id='wrap_contacts'>
+			<h2 class='title_block'>
+				Контакты
+			</h2>
+			<div class='content_block'>
+				<div>
+					<div> ООО "СТАР ГРУПП" </div><br>
+					<div> Россия, Тамбов, ул. Бригадная 3 </div><br>
+					<div><span>Телефон:</span> +7(910)6525125 </div>
+					<div><span>Почта:</span> stargrupp@mail.ru </div>
+					<div><span>Время работы:</span> ПН-ПТ 09:00 - 18:00 </div>
+				</div>
+				<div>
+					<input type='text' placeholder='Электроннаяпочта'>
+					<input type='text' placeholder='Вашеимя'>
+					<input type='text' placeholder='Номертелефона'>
+					<textarea placeholder='Краткоопишитесутьвашегозапроса'></textarea>
+					<divclass='button'>
+						Отправить
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--КОНТАКТЫ-->
+	</body>
+</html>
