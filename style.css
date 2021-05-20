@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html {
+	background: ;
+	height: 100%;
+	width: 100%;
+	color: #333; font-family: 'Roboto Condensed', sans-serif; font-size: 19px;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif; font-size: 19px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	margin: 0;
+}
+
+input[type="text"], input[type="button"], input[type="submit"], textarea {
+	font-family: Arial, sans-serif;
+}
+
+input[type="text"]:focus, textarea:focus {outline: none; }
+input[type="text"] { width: 100%; }
+input[type="password"] { width: 100%; }
+textarea { width: 100%; resize: none; font-family: Arial, sans-serif; }
+
+input[type="button"] { outline: none; }
+input[type="button"]:active { outline: none; }
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+a { text-decoration: none; }
+
+p { margin: 0; padding: 0; }
+
+/*ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА */
+
+#wrap_shapka {
+	border: px solid red; 
+	position: relative;
+}
+	#wrap_shapka:before {
+		position: absolute; bottom: 0; left: 0; z-index: 1;
+		width: 100%;
+		content: '';
+		padding: 1rem;
+		background: rgba(0,70,200,0.5);
+	}
+	#wrap_shapka:after {
+		position: absolute; bottom: 0; left: 0; z-index: 1;
+		width: 100%;
+		content: '';
+		padding: 0.2rem;
+		background: rgba(250,50,150,1);
+	}
+	#wrap_shapka img {
+		width: 100%;
+		filter: brightness(1) contrast(0.9);
+	}
+	#content_shapka {
+		position: absolute; top: 0; left: 0;
+		width: 100%;
+		padding: 2rem;
+		display: flex; justify-content: space-between; align-items: center;
+		text-shadow: 0 0 0.2rem #000;
+		background: rgba(0,20,60,0.5);
+	}
+		#wrap_shapka_name {
+			color: #fff;
+		}
+			#wrap_shapka_name div:first-child { /*название компании*/
+				font-size: 3.1rem; font-weight: bold;
+				margin: 0 0 0.3rem 0;
+			}
+			#wrap_shapka_name div:last-child { /*слоган компании*/
+				font-size: 1.4rem;
+			}
+		#wrap_menu {
+			
+		}
+			#wrap_menu ul {
+				display: flex;
+			}
+				#content_shapka li {
+					list-style-type: none;
+					color: #eee; font-size: 1.2rem; font-weight: bold;
+					margin: 0 1rem 0 0;
+					cursor: pointer;
+					transition: 0.3s;
+				}
+					#content_shapka li:hover {
+						transform: scaleX(1.05) scaleY(1.05);
+					}
+	
+/*ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА ШАПКА */
+
+.wrap_block {
+	padding: 3rem 5rem;
+	position: relative;
+}
+	.title_block {
+		text-align: center;
+		font-size: 3rem; font-weight: bold;
+		margin: 0 0 2rem 0;
+		color: rgba(0,100,200,1);
+	}
+	.content_block {
+		
+	}
+	
+/*ПРЕИМУЩЕСТВА*/
+#wrap_advantages {
+	background: #fff;
+}
+	#wrap_advantages .title_block {
+		padding: 0 0 2rem 0;
+	}
+	#wrap_advantages .content_block {
+		display: flex; justify-content: space-between;
+		padding: 0 0 2rem 0;
+	}
+		#wrap_advantages .content_block > p { /*блок одного преимущества*/
+			width: 20%;
+			/*box-shadow: 0 0 0.2rem rgba(0,50,150,1);*/
+			border: 3px solid rgba(0,100,200,0.7); border-radius: 0.3rem;
+			color: rgba(0,100,200,1);
+			text-align: center;
+			padding: 1rem;
+			background: ;
+			font-size: 1.1rem;
+			display: flex; align-items: center; flex-direction: column;
+		}
+			#wrap_advantages .content_block > p img {
+				width: 3rem; height: 3rem;
+				filter: contrast(0.3);
+			}
+			#wrap_advantages .content_block > p > span { /*подзаголовок преимущества*/
+				padding: 1rem 0;
+				display: block;
+				font-weight: bold; font-size: 1.3rem;
+			}
+/*ПРЕИМУЩЕСТВА*/
+	
+/*УСЛУГИ*/
+#wrap_uslugi {
+	background: rgba(0,100,255,0.6);
+	color: #fff;
+	box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+}
+	#wrap_uslugi > div:first-child {
+		position: absolute; top: 0; left: 0; z-index: 1;
+		width: 100%;
+		padding: 0.1rem;
+		/*background: rgba(0,70,200,0.8);*/
+		border: px solid red;
+	}
+	#wrap_uslugi:before {
+		position: absolute; bottom: 0; left: 0;
+		width: 100%;
+		content: '';
+		padding: 1rem;
+		background: rgba(0,70,200,0.8);
+	}
+	#wrap_uslugi:after {
+		position: absolute; bottom: 0; left: 0;
+		width: 100%;
+		content: '';
+		padding: 0.2rem;
+		background: rgba(250,50,150,1);
+	}
+	#wrap_uslugi .title_block {
+		padding: 0 0 2rem 0;
+		color: #fff;
+	}
+	#wrap_uslugi .content_block {
+		padding: 0 0 2rem 0;
+	}
+		#wrap_uslugi .content_block > div { /*блок одной услуги со списком*/
+			width: 70%;
+			margin: 0 auto;
+			border-top: 3px solid rgba(0,70,150,1);
+		}
+			#wrap_uslugi .content_block > div > div:first-child { /*название услуги*/
+				font-weight: bold; font-size: 1.5rem; color: rgba(0,70,150,1);
+				padding: 0.8rem 0 0 0; margin: 0.3rem 0 0 0;
+			}
+			#wrap_uslugi .content_block > div > div:last-child { /*список подуслуг*/
+				font-size: 1.2rem;
+			}
+				#wrap_uslugi ul {
+					padding: 0 1.3rem;
+				}
+/*УСЛУГИ*/
+
+
+/*КЛИЕНТЫ И ПАРТНЕРЫ*/
+#wrap_clients {
+	position: relative;
+}
+	#wrap_clients:before {
+		position: absolute; bottom: -0.1rem; left: 10%;
+		width: 60%;
+		content: '';
+		padding: 0.1rem;
+		background: rgba(0,70,200,0.8);
+	}
+	#wrap_clients:after {
+		position: absolute; bottom: 0.1rem; right: 10%;
+		width: 60%;
+		content: '';
+		padding: 0.12rem;
+		background: rgba(250,50,150,1);
+	}
+	#wrap_clients .title_block, #wrap_partners .title_block {
+		padding: 0 0 1.5rem 0;
+	}
+	#wrap_clients .content_block {
+		padding: 0 0 1.5rem 0;
+	}
+	#wrap_partners .content_block {
+		padding: 0 0 1.5rem 0;
+	}
+		#wrap_clients p {
+			width: 30%;
+			text-align: center; font-size: 1.5rem;
+			margin: 0 auto 2rem auto;
+		}
+		#wrap_clients .content_block div, #wrap_partners .content_block div {
+			display: flex; justify-content: space-between;
+			border: px solid;
+		}
+			#wrap_clients .content_block div img, #wrap_partners .content_block div img {
+				max-width: 25%; height: 5rem;
+				border: px solid;
+			}
+/*КЛИЕНТЫ И ПАРТНЕРЫ*/
+
+
+/*СХЕМА ПРОЕЗДА*/
+#wrap_karta {
+	background: rgba(0,100,255,0.6);
+	color: #fff;
+	padding: 0;
+	position: relative;
+	box-shadow: 0 0 1.2rem rgba(0,0,0,0.4);
+}
+	#wrap_karta:before {
+		position: absolute; bottom: 0; left: 0; z-index: 3;
+		width: 100%;
+		content: '';
+		padding: 1rem;
+		background: rgba(0,70,200,0.8);
+	}
+	#wrap_karta:after {
+		position: absolute; bottom: 0; left: 0; z-index: 3;
+		width: 100%;
+		content: '';
+		padding: 0.2rem;
+		background: rgba(250,50,150,1);
+	}
+	#wrap_karta .title_block {
+		position: absolute; top: 50%; left: 5%; z-index: 2;
+		transform: translateY(-50%);
+		/*background: rgba(0,0,0,0.4);*/
+		color: #222; font-size: 3.5rem;
+		padding: 3rem;
+		border-radius: 0.2rem;
+	}
+	#wrap_karta .content_block {
+		padding: 0; position: relative; z-index: 2;
+	}
+	#wrap_karta .content_block div {
+		width: 100%; height: 28rem; margin: 0 auto;
+	}
+		#wrap_karta .content_block div img {
+			width: 100%; height: 100%; object-fit: cover;
+			vertical-align: middle;
+		}
+		
+/*СХЕМА ПРОЕЗДА*/
+
+
+/*КОНТАКТЫ*/
+#wrap_contacts {
+	
+}
+	#wrap_contacts .content_block {
+		display: flex; justify-content: space-evenly; align-items: center;
+	}
+		#wrap_contacts .content_block > div:first-child { /*Контакты*/
+			line-height: 2.6rem;
+			font-size: 1.5rem;
+		}
+				#wrap_contacts .content_block > div:first-child div span {
+					font-weight: bold;
+				}
+				#wrap_contacts .content_block > div:first-child > div:first-child {
+					color: rgba(250,50,100,1); font-weight: bold; font-size: 2rem;
+				}
+		#wrap_contacts .content_block > div:last-child { /*Форма*/
+			width: 40%;
+		}
+			#wrap_contacts .content_block > div:last-child input, #wrap_contacts .content_block > div:last-child textarea {
+				border-radius: 0.4rem;
+				font-size: 1rem;
+				padding: 1rem;
+				border: 1px solid #aaa;
+				margin: 0 0 1rem 0;
+			}
+			.button {
+				padding: 1rem;
+				border-radius: 0.4rem;
+				background: rgba(250,0,100,1);
+				color: #fff; font-size: 1.3rem; font-weight: bold; text-align: center;
+				cursor: pointer;
+				transition: 0.3s;
+			}
+			.button:hover {
+				background: rgba(250,50,150,1);
+			}
+			.button:active {
+				background: rgba(250,0,100,1);
+			}
+		
+/*КОНТАКТЫ*/
+
+	
+div, a, input, span, p, textarea, div:after, div:before, ul, li {
+	-moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+}
